@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Fashion, Beauty & Lifestyle Online | YesStyle</title>
+    <link rel="icon" href="https://ddvql06zg3s2o.cloudfront.net/Assets/res/p/2906/imgs/favicon/favicon-32x32.png"
+        sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css">
+
+
+</head>
+
+<body ondblclick="hideaddress()">
+
+    <header class="main-header">
+        <div class="headerBox">
+            <div class="upperHalfInNav">
+                <div class="upperHalfItems">
+                    <div class="firDivUpperHalf">
+                        <button class="btn-icons"> 
+                            <img class="smallIcons pointer" src="https://cdn3.iconfinder.com/data/icons/world-flags-circular-1/512/127-India_indian_asian_asia_IND_south_country_flag_-512.png" onclick="showaddress()" />
+                        </button>
+                        <button class="btn-icons pointer">
+                            <img class="smallIcons" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgSp6qsWQfQcIbEnZFKwMT2rVL7ijlGfj4zA&usqp=CAU"
+                                onclick="ShowDropDown('dropdown_track')" />
+                        </button>
+                        <div id="dropdown_track">
+                            <a href="">Order Tracking</a>
+                            <a href="">Customer Services</a>
+                        </div>
+                        <button class="btn-icons pointer" onclick="showsearchbar()">
+                            <img class="smallIcons" src="https://img.icons8.com/ios/2x/search.png
+                            ">
+                        </button>
+                    </div>
+                    <img id="headerMainLogo" class="pointer"
+                        src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/p/2906/imgs/yesstyle_logo.svg" alt="">
+                    <div class="secDivUpperHalf">
+                        <button class="btn-icons pointer">
+                            <img class="smallIcons " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRudfEoJuoVNitMB-qJl855LZwXescBzkX8nw&usqp=CAU
+                            " onclick="ShowDropDown('dropdown_login')" />
+                        </button>
+                        <div id="dropdown_login">
+                            <a id="a_sign_in" href="./HTML/sign_in.html">Sign In</a>
+                            <a id="a_register_now" href="./HTML/sign_in.html">Register Now</a>
+                        </div>
+                        <button class="btn-icons pointer">
+                            <img class="smallIcons" src="https://img.icons8.com/ios/2x/like.png" />
+                        </button>
+                        <button class="btn-icons pointer" onclick = "window.location.href='./HTML/cart.html'">
+                            <img class="smallIcons" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdjV_chhBL-3fJjLIKsojWl-F80IwHPHeG1g&usqp=CAU
+                            ">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="lowerHalfInNav">
+                <div class="lowerHalfItems">
+                    <div id="new_in">
+                        <a href="">NEW IN</a>
+                        <div class="dropbox_styling" id="new_in_dropbox">
+                            <div class="box-1">
+                                <ul><strong><a href="">NEW IN FASHION</a></strong>
+                                    <li><a href="">New In Today</a></li>
+                                    <li><a href="">New In This Week</a></li>
+                                </ul>
+                                <ul><strong><a href="">NEW PRODUCTS</a></strong>
+                                    <li><a href="">Clothing</a></li>
+                                    <li><a href="">Beauty</a></li>
+                                    <li><a href="">Accessories</a></li>
+                                    <li><a href="">Bag</a></li>
+                                    <li><a href="">Footwear</a></li>
+                                    <li><a href="">Men</a></li>
+                                    <li><a href="">Home & Lifestyle</a></li>
+
+                                </ul>
+
+                            </div>
+                            <div class="box-2">
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk40/n_latest_trends.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk40/n_y2k.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                            </div>
+                            <div class="box-3">
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk39/n_fashion_fd.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk35/n_beauty_preorder.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                            </div>
+                            <div class="box-4">
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk35/n_body_care.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk39/n_beauty_fd.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="women">
+                        <a href="">WOMEN</a>
+                        <div class="dropbox_styling" id="women_dropbox">
+                            <div class="box-1">
+                                <ul><strong>START HERE</strong>
+                                    <li>New Arrivals</li>
+                                    <li>In Stock-Items</li>
+                                    <li>Best Seller</li>
+                                    <li>Flash Sales</li>
+                                    <li>Stock Clearance</li>
+                                </ul>
+                                <ul><strong>FEATURES</strong>
+                                    <li>Latest TrendS</li>
+                                    <li>Korean Fashion</li>
+                                    <li>YesStyle Picks</li>
+                                    <li>SIMPLY MOOD 20% OFF</li>
+                                </ul>
+                            </div>
+                            <div class="box-2">
+                                <ul><strong>CLOTHING</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                    <li>Dresses</li>
+                                    <li>Jeans</li>
+                                    <li>Jumpsuits</li>
+                                    <li>Lingerie</li>
+                                    <li>Maternity Clothes</li>
+                                    <li>Pajamas</li>
+                                    <li>Pants</li>
+                                    <li>Shorts</li>
+                                    <li>Skirts</li>
+                                    <li>Socks & Tights</li>
+                                    <li>Swimwear</li>
+                                </ul>
+                            </div>
+                            <div class="box-3">
+                                <ul><strong>TOPS</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                </ul>
+                                <ul><strong>PANTS</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                </ul>
+                                <ul><strong>SWIMWEAR</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Bikinis</li>
+                                </ul>
+                            </div>
+                            <div class="box-4">
+                                <ul><strong>DRESSES</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                </ul>
+                                <ul><strong>SKIRTS</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                </ul>
+                                <ul><strong>ACCESSORIES</strong></ul>
+                                <ul><strong>BAG & FOOTWEAR</strong></ul>
+                            </div>
+                            <div class="box-5">
+                                <strong style="display: block;">HIGHLIGHTS</strong>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk40/ma_top_picks.jpg"
+                                        alt="">
+                                    <a>Top Picks 20% OFF</a>
+                                </div>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk39/ma_pants_w.jpg"
+                                        alt="">
+                                    <a>Pants upto 50% OFF</a>
+                                </div>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk40/ma_jewelry_acc_w.jpg"
+                                        alt="">
+                                    <a>For Minimalist</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="beauty">
+                        <a href="">BEAUTY</a>
+                        <div class="dropbox_styling" id="beauty_dropbox">
+                            <div class="box-1">
+                                <ul><strong>START HERE</strong>
+                                    <li>New Arrivals</li>
+                                    <li>In Stock-Items</li>
+                                    <li>Best Seller</li>
+                                    <li>Flash Sales</li>
+                                    <li>Stock Clearance</li>
+                                </ul>
+                                <ul><strong>FEATURES</strong>
+                                    <li>Latest TrendS</li>
+                                    <li>Korean Fashion</li>
+                                    <li>YesStyle Picks</li>
+                                    <li>SIMPLY MOOD 20% OFF</li>
+                                </ul>
+                            </div>
+                            <div class="box-2">
+                                <ul><strong>CLOTHING</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                    <li>Dresses</li>
+                                    <li>Jeans</li>
+                                    <li>Jumpsuits</li>
+                                    <li>Lingerie</li>
+                                    <li>Maternity Clothes</li>
+                                    <li>Pajamas</li>
+                                    <li>Pants</li>
+                                    <li>Shorts</li>
+                                    <li>Skirts</li>
+                                    <li>Socks & Tights</li>
+                                    <li>Swimwear</li>
+                                </ul>
+                            </div>
+                            <div class="box-3">
+                                <ul><strong>TOPS</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                </ul>
+                                <ul><strong>PANTS</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                </ul>
+                                <ul><strong>SWIMWEAR</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Bikinis</li>
+                                </ul>
+                            </div>
+                            <div class="box-4">
+                                <ul><strong>DRESSES</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                </ul>
+                                <ul><strong>SKIRTS</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                </ul>
+                                <ul><strong>ACCESSORIES</strong></ul>
+                                <ul><strong>BAG & FOOTWEAR</strong></ul>
+                            </div>
+                            <div class="box-5">
+                                <strong style="display: block;">HIGHLIGHTS</strong>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk39/ma_toners.jpg"
+                                        alt="">
+                                    <a>Top Picks 20% OFF</a>
+                                </div>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk37/ma_probiotics.jpg"
+                                        alt="">
+                                    <a>Pants upto 50% OFF</a>
+                                </div>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk39/ma_pezri.jpg"
+                                        alt="">
+                                    <a>For Minimalist</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="men">
+                        <a href="">MEN</a>
+                        <div class="dropbox_styling" id="men_dropbox">
+                            <div class="box-1">
+                                <ul><strong>START HERE</strong>
+                                    <li>New Arrivals</li>
+                                    <li>In Stock-Items</li>
+                                    <li>Best Seller</li>
+                                    <li>Flash Sales</li>
+                                    <li>Stock Clearance</li>
+                                </ul>
+                                <ul><strong>FEATURES</strong>
+                                    <li>Latest TrendS</li>
+                                    <li>Korean Fashion</li>
+                                    <li>YesStyle Picks</li>
+                                    <li>SIMPLY MOOD 20% OFF</li>
+                                </ul>
+                            </div>
+                            <div class="box-2">
+                                <ul><strong>CLOTHING</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                    <li>Dresses</li>
+                                    <li>Jeans</li>
+                                    <li>Jumpsuits</li>
+                                    <li>Lingerie</li>
+                                    <li>Maternity Clothes</li>
+                                    <li>Pajamas</li>
+                                    <li>Pants</li>
+                                    <li>Shorts</li>
+                                    <li>Skirts</li>
+                                    <li>Socks & Tights</li>
+                                    <li>Swimwear</li>
+                                </ul>
+                            </div>
+                            <div class="box-3">
+                                <ul><strong>TOPS</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                </ul>
+                                <ul><strong>PANTS</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                </ul>
+                                <ul><strong>SWIMWEAR</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Bikinis</li>
+                                </ul>
+                            </div>
+                            <div class="box-4">
+                                <ul><strong>DRESSES</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                </ul>
+                                <ul><strong>SKIRTS</strong>
+                                    <li>Activewear</li>
+                                    <li>Coats & Jackets</li>
+                                    <li>Cosplay / Costumes</li>
+                                    <li>Dancewear</li>
+                                </ul>
+                                <ul><strong>ACCESSORIES</strong></ul>
+                                <ul><strong>BAG & FOOTWEAR</strong></ul>
+                            </div>
+                            <div class="box-5">
+                                <strong style="display: block;">HIGHLIGHTS</strong>
+                                <div class="box">
+
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk40/ma_kr_fashion.jpg"
+                                        alt="">
+                                    <a>Top Picks 20% OFF</a>
+                                </div>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk39/ma_pants_m.jpg"
+                                        alt="">
+                                    <a>Pants upto 50% OFF</a>
+                                </div>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk40/ma_jewelry_acc_m.jpg"
+                                        alt="">
+                                    <a>For Minimalist</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="lifestyle">
+                        <a href="">LIFESTYLE</a>
+                        <div class="dropbox_styling" id="lifestyle_dropbox">
+                            <div class="box-1">
+                                <ul><strong>NEW IN FASHION</strong>
+                                    <li>New In Today</li>
+                                    <li>New In This Week</li>
+                                </ul>
+                                <ul><strong>NEW PRODUCTS</strong>
+                                    <li>Clothing</li>
+                                    <li>Beauty</li>
+                                    <li>Accessories</li>
+                                    <li>Bag</li>
+                                    <li>Footwear</li>
+                                    <li>Men</li>
+                                    <li>Home & Lifestyle</li>
+
+                                </ul>
+
+                            </div>
+                            <div class="box-2">
+                                <div class="box">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdE3Z36jcnh3P-Ie6Rf26FXkDjxffp9_dvOg&usqp=CAU"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                                
+                            </div>
+                            <div class="box-3">
+                                <div class="box">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgO7HmDMBB-7UYZOThhvxxa5dyzl6JICRWKQ&usqp=CAU"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                               
+                            </div>
+                            <div class="box-4">
+                                
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk35/n_latest_trends.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="saleRedirector">
+                        <a href="" style="color: red;">SALE</a>
+                        <div class="dropbox_styling" id="sale_dropbox">
+                            <div class="box-1">
+                                <ul><strong>NEW IN FASHION</strong>
+                                    <li>New In Today</li>
+                                    <li>New In This Week</li>
+                                </ul>
+                                <ul><strong>NEW PRODUCTS</strong>
+                                    <li>Clothing</li>
+                                    <li>Beauty</li>
+                                    <li>Accessories</li>
+                                    <li>Bag</li>
+                                    <li>Footwear</li>
+                                    <li>Men</li>
+                                    <li>Home & Lifestyle</li>
+
+                                </ul>
+
+                            </div>
+                            <div class="box-2">
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/specialpage/2021/sale_menu/fashion/n_usd15_en.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/21wk29/n_free_sample_en.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                            </div>
+                            <div class="box-3">
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/specialpage/2021/sale_menu/sc_fashion/n_fashion_25_en.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/specialpage/2021/sale_menu/beauty/n_usd5_en.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                            </div>
+                            <div class="box-4">
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/specialpage/2021/sale_menu/other/n_mask.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                                <div class="box">
+                                    <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/specialpage/2021/sale_menu/sc_beauty/n_beauty_30_en.jpg"
+                                        alt="clothings">
+                                    <a>Latest Trending</a>
+                                    <a>Discount upto 40%-90%</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="blog">
+                        <a href="./HTML/blog.html">BLOG</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- drop boxes search bar -->
+        <div id="dropbox_search_bar">
+            <input type="text" placeholder="Search" />
+            <span onclick="hidesearchbar()">x</span>
+        </div>
+    </header>
+
+    <div class="back-white firstDiv">
+        <button class="back-white text-grey">Free Express Shipping with any US$ 59 purchase</button>
+        |
+        <button class="back-white text-grey">Buy Now Pay Later</button>
+        |
+        <button class="back-white text-grey">YesStyle's response to COVID-19</button>
+    </div>
+    
+    <div id="mySlideshow" class="slideshow"></div>
+    
+    <div class="main-cont">
+        <!-- It's for the top horizontal buttons aligned after header -->
+
+        <br>
+
+        <div id="collage">
+            <div id="photoleft">
+                <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/p/2918/imgs/demo/revamp2/photo-left.png"
+                    alt="">
+            </div>
+
+            <div id="over">
+                <div id="insidetxt">
+                    <p >Register to get extra 10% off</p>
+                    <h3 >EXTRA 10% OFF & FREE SHIPPINHG</h3>
+                    <button class="bt">REGISTER</button>
+                </div>
+            </div>
+
+            <div id="photoright">
+                <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/p/2918/imgs/demo/revamp2/photo-right.png"
+                    alt="">
+            </div>
+
+        </div>
+
+        <div id="Av">
+            <div id="first">
+                <div>.</div>
+                <div id="indiv">
+                    <h3>NEW ARRIVALS</h3>
+                    <h3 id="ar" style="line-height: 40px;">20% OFF</h3>
+                    <p id="ptxt">For 24 Hours Only!</p>
+                </div>
+            </div>
+            <div id="second">
+                <div>.</div>
+                <div id="indiv">
+                    <h3>WHAT'S HOT</h3>
+                    <p id="ptxt" style="line-height: 40px;">For 24 Hours Only!</p>
+                </div>
+            </div>
+            <div id="third">
+                <div>.</div>
+                <div id="indiv">
+                    <h3>PANTS</h3>
+                    <h3 style="line-height: 40px;">UP TO 40% OFF</h3>
+                    <p id="ptxt" style="line-height: 10px;">COOL AND COMFY</p>
+                    <P id="ptxt" style="line-height: 15px;">Sale ends Oct. 3, 2021</P>
+                </div>
+            </div>
+        </div>
+
+        <!-- It's for the box named flesh sales box -->
+
+        <div class="flashSalesFromThreeDollars">
+            <h1 class="boxHeadings flashSalesTitle">FLASH SALES FROM US$ 2.99</h1>
+            <span id="box-1_flashSales">
+            </span>
+            <span id="box-2_flashSales">
+            </span>
+            <span id="box-3_flashSales">
+            </span>
+            <span id="box-4_flashSales">
+            </span>
+
+            <div id="flashSalesUnderThreeContent" class="flashSalesContent flashSalesContentBox"></div>
+            <p class="textAfterFlashSales">Limited Stock. Only one quantity per item per order</p>
+        </div>
+
+        <div class="flashSalesFromThreeDollars flashSalesUpToTwentyFive">
+            <h1 class="boxHeadings flashSalesTitle fleshSalesTwentyFive">FLASH SALES UPTO 25% OFF</h1>
+            <span id="box-1_fleshSalesTwentyFive">
+            </span>
+            <span id="box-2_fleshSalesTwentyFive">
+            </span>
+            <span id="box-3_fleshSalesTwentyFive">
+            </span>
+            <span id="box-4_fleshSalesTwentyFive">
+            </span>
+
+            <div id="flashSalesUpToTwentyFiveData"
+                class="flashSalesContent flashSalesContentBox fleshSalesUptoTwentyFiveContent"></div>
+            <div class="btnHolderDivForRecentlyViewed btnHolderDivUnderTwentyFive">
+                <button id="btnInFlashSalesUptoBox"
+                    class="btnBackgroundBlack backgroundWhite cursorPointer btnAfterProducts">MORE FLASH SALES</button>
+            </div>
+        </div>
+
+        <!-- It's for the box named stock clearance up to 25% off -->
+
+        <div class="stockClearanceBox">
+            <h1 class="boxHeadings flashSalesTitle flashSalesInStockClearance">STOCK CLEARANCE UP TO 25% OFF</h1>
+
+            <div id="flashSalesInStockClearanceContent"
+                class="flashSalesContent flashSalesContentBox stockClearanceContent"></div>
+            <div class="btnHolderDivForRecentlyViewed btnHolderDivUnderTwentyFive">
+                <button id="btnInFlashSalesUptoBox"
+                    class="btnBackgroundBlack backgroundWhite cursorPointer btnAfterProducts">MORE FLASH SALES</button>
+            </div>
+        </div>
+
+        <h1 id="heading">Top Categories</h1>
+        <div id="topCategories">
+            <div>
+                <a href=""><img class="topimg"
+                        src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/categories/14090.jpg" alt=""></a>
+                <div id="txt">Top</div>
+            </div>
+
+            <div>
+                <a href=""><img class="topimg"
+                        src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/categories/14093.jpg" alt=""></a>
+                <div id="txt">Skirt</div>
+            </div>
+
+            <div>
+                <a href=""><img class="topimg"
+                        src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/categories/14129.jpg" alt=""></a>
+                <div id="txt">Shoes</div>
+            </div>
+
+            <div>
+                <a href=""><img class="topimg"
+                        src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/categories/14099.jpg" alt=""></a>
+                <div id="txt">Blouse</div>
+            </div>
+
+            <div>
+                <a href=""><img class="topimg"
+                        src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/categories/15663.jpg" alt=""></a>
+                <div id="txt">Jeans</div>
+            </div>
+
+            <div>
+                <a href=""><img class="topimg"
+                        src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/categories/14138.jpg" alt=""></a>
+                <div id="txt">Backpacks</div>
+            </div>
+        </div>
+
+
+        <div id="shopBeauty">
+            <div id="insidetxt">
+                <h3 style="line-height: 0px;">BEAUTIFY YOUR LIFE</h3>
+                <h3 style="line-height: 40px;">UP TO 30% OFF</h3>
+                <div>Your One-Stop Beauty Destination</div>
+                <button class="bt">SHOP BEAUTY</button>
+            </div>
+        </div>
+
+        <div id="lastBox">
+            <div id="fstbox">
+                <div id="insidetxt">
+                    <h3 style="line-height: 0px;">FASHION ACCESSORIES</h3>
+                    <h3 style="line-height: 40px;">AS LOW AS US$ 3</h3>
+                    <button class="bt">SHOP ACCESSORIES</button>
+                </div>
+            </div>
+            <div id="lstbox">
+                <div id="insidetxt">
+                    <h3 style="line-height: 0px;">HOME & LIFESTYLE</h3>
+                    <h3 style="line-height: 40px;">AS LOW AS US$ 2</h3>
+                    <button class="bt">SHOP LIFESTYLE</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- It's for the recommended boxes -->
+        <div class="recommendedBox">
+            <div class="content">
+                <h1 class="cursorPointer boxHeadings">RECOMMENDED FOR YOU</h1>
+                <div id="recommendedBox" class="cursorPointer productsHolder"></div>
+            </div>
+            <div class="btnHolderDiv">
+                <button id="btnAfterRecommendedBox" class="cursorPointer btnAfterProducts">LOAD MORE</button>
+            </div>
+        </div>
+
+        <!-- It's for box titled Yesstylist-->
+        <div class="yesStylistBox">
+            <div class="content contentInYesStylistBox">
+                <h1 class="cursorPointer boxHeadings">THE YESSTYLIST</h1>
+                <div id="yesStylistBoxContent" class="cursorPointer productsHolder">
+                    <div class="firstContentYesStylist">
+                        <div id="firstHalfOfFirst_YesStylist" class="yesHalfFirst25%"></div>
+
+                        <div id="secondHalfOfFirst_YesStylist" class="yesHalfSecond25%"></div>
+                    </div>
+
+                    <div class="secondContentYesStylist">
+                        <div id="firstHalfOfSecond_YesStylist" class="yesHalfFirst25%"></div>
+
+                        <div id="secondHalfOfSecond_YesStylist" class="yesHalfSecond25%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="check">
+            <h1 style="text-align: center;line-height: 0px;">CHECK OUT OUR YESSTYLERS!</h1>
+            <p style="text-align: center; line-height: 70px;">Shop your favorite looks from the @YesStyle feed</p>
+
+            <div style="width: 100%;margin: auto;margin-top: 3%;">
+
+                <div id="box1">
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/ig/202109/rrrrayda.jpg"
+                            alt="">
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/ig/202109/kesiidee.jpg"
+                            alt="">
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/ig/202109/jezmicole.jpg"
+                            alt="">
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/ig/202109/aphia_o.jpg"
+                            alt="">
+                    </div>
+                </div>
+
+                <div id="box2">
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/ig/202109/ellarmiller.jpg"
+                            alt="">
+                    </div>
+                    <div id="middelbox">
+                        <img style="width: 20%;height: 60px;"
+                            src="../images/Popular-Logo-Instagram-icon-PNG.png"
+                            alt="Instagram">
+                        <div>Tag @YesStyle on Instagram</div>
+                        <div>to share your favorite looks with fellow YesStylers!</div>
+                        <button class="bt">MORE DETAILS</button>
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/ig/202109/least_frequency.jpg"
+                            alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- It's for recently viewed boxes -->
+        <div class="recentlyViewedBox">
+            <div class="content">
+                <h1 class="cursorPointer boxHeadings">RECENTLY VIEWED</h1>
+                <div id="recentlyViewedBox" class="cursorPointer productsHolder"></div>
+            </div>
+            <div class="btnHolderDivForRecentlyViewed">
+                <button id="btnAfterRecentlyViewed"
+                    class="btnBackgroundBlack backgroundWhite cursorPointer btnAfterProducts">LOAD MORE</button>
+            </div>
+        </div>
+
+
+
+        <!-- It's for box named Notable beauty brands before footer -->
+        <div class="notableBrandsBoxMain">
+            <div class="content contentInNotableBrand">
+                <h1 class="cursorPointer boxHeadings">NOTABLE BEAUTY BRANDS</h1>
+                <div id="notableBrandsBox" class="cursorPointer productsHolder notableBrandsGrid">
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/brandicon/png/cosrx.png">
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/brandicon/beauty/somebymi.png">
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/brandicon/beauty/im_from.png">
+                    </div>
+                    <div>
+                        <img
+                            src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/brandicon/beauty/dear_klairs.png">
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/brandicon/beauty/purito.png">
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/brandicon/beauty/iunik.png">
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/brandicon/beauty/missha.png">
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/brandicon/beauty/romand.png">
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/brandicon/mizon.png">
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/brandicon/neogen.png">
+                    </div>
+                    <div>
+                        <img
+                            src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/brandicon/beauty/rohto_mentholatum.png">
+                    </div>
+                    <div>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/brandicon/shiseido.png">
+                    </div>
+                </div>
+                <div class="btnMoreBrandsAtBefFooter">
+                    <button id="btnViewBrandsBeforeFooter"
+                        class="btnBackgroundBlack backgroundWhite cursorPointer btnAfterProducts">VIEW MORE
+                        BRANDS</button>
+                </div>
+            </div>
+        </div>
+        <div class="hrline"></div>
+        <!-- ///////////////////////footer jatin//////////////// -->
+        <footer id="footer">
+            <div class="info_social">
+                <div class="info">
+                    <div class="box_1">
+                        <strong>ENQUIRY</strong>
+                        <ul>
+                            <li>Customer Services</li>
+                            <li>Order Tracking</li>
+                            <li>Contact Us</li>
+    
+                        </ul>
+                    </div>
+                    <div class="box_2">
+                        <strong>ABOUT YESSTYLE</strong>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Email Our CEO <span class="new_anouncement">NEW</span></li>
+                            <li>Friends Rewards</li>
+                            <li>YesStyle Influencer <span class="new_anouncement">NEW</span></li>
+                        </ul>
+                    </div>
+                    <div class="box_3">
+                        <strong>INFORMATION</strong>
+                        <ul>
+                            <li>Special Offer</li>
+                            <li>Affiliate Program</li>
+                            <li>Wholesale</li>
+    
+                        </ul>
+                    </div>
+                </div>
+                <div class="socialconnects">
+                    <div class="yesstyleapp">
+                        <strong>THE YESSTYLE APP</strong>
+                        <img src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/p/2909/imgs/appintro/app-badge_en.svg"
+                            alt="link-to-playstore" style="margin: 10px 10px 0px 0px;" />
+                    </div>
+                    <div class="social_media">
+                        <strong>FOLLOW YESSTYLE ON</strong>
+                        <div class="social_media_icons" style="margin: 10px 10px 0px 0px;">
+                            <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="facebook" />
+                            <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png" alt="twitter" />
+                            <img src="https://img.icons8.com/color/48/000000/pinterest.png" alt="pinterest" />
+                            <img src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png" alt="instagram" />
+                            <img src="icons_gif/icons8-youtube-64.png" alt="youtube" style="width: 45px; height: 45;" />
+                            <img src="https://img.icons8.com/ios-filled/50/000000/tumblr--v2.png" alt="tumblr" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="privacy_copyright">
+                <div class="lang_privacy">
+                    <div class="language"><span class="gap_lang">English</span><span
+                            class="gap_lang">Français</span><span class="gap_lang">Deutsch</span><span
+                            class="gap_lang">Español</span><span class="gap_lang">Italiano</span><span
+                            class="gap_lang">日本語</span>
+                        <div class="line"></div><span class="gap_lang">Terms of Use</span><span class="gap_lang">Privacy
+                            Policy</span><span class="gap_lang">Cookie
+                            Preferences</span>
+                    </div>
+                </div>
+                <p style="margin: 2px;">
+                    Copyright © 2006-2021 YESSTYLE.COM LTD. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
