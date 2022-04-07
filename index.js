@@ -128,7 +128,7 @@ showRecViewedData(recentlyViewedBoxData);
 // For yes stylist page
 var firstDivData = {
     image: "https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/video_blog/202109/20210927mn.jpg",
-    title: "10 WEARABLE FALL / WINTER 2021 FASHION TRENDS",
+    title: "10 WEARABLE FALL / WINTER 2022 FASHION TRENDS",
     description: "Cool and crisper weather is arriving soon, a reminder that it’s time to refresh your wardrobe for the changing season!"
 }
 
@@ -186,7 +186,7 @@ showSecondDivData(secondDivData);
 
 // It's for the box titled as flash sales from 2.99$
 // CountDown timer
-var deadlineForFlashSales = new Date("feb 21, 2022 23:59:00").getTime();
+var deadlineForFlashSales = new Date("dec 21, 2022 23:59:00").getTime();
 // console.log(deadline);
 var flashSalesInt = setInterval(function () {
     var now = new Date().getTime();
@@ -297,7 +297,7 @@ function getTheDataFlashSalesUnderThree(el) {
 // This functionality is for the box titled Flash Sales upto 25% off
 
 // CountDown timer
-var deadlineForFlashSalesUptoTwentyFive = new Date("Oct 3, 2021 23:59:00").getTime();
+var deadlineForFlashSalesUptoTwentyFive = new Date("Oct 3, 2022 23:59:00").getTime();
 // console.log(deadline);
 var flashSalesUnderTwentyFivInt = setInterval(function () {
     var now = new Date().getTime();
